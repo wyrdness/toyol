@@ -1,0 +1,741 @@
+{
+  "category": "SUPERNATURAL_ENTITY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/toyol",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "toyol",
+    "name": "Toyol",
+    "aliases": [
+      {
+        "name": "Tuyul",
+        "language": "Indonesian",
+        "region": "Indonesia",
+        "meaning": "Undead infant spirit"
+      },
+      {
+        "name": "Toyul",
+        "language": "Javanese",
+        "region": "Java, Indonesia",
+        "meaning": "Infant ghost"
+      },
+      {
+        "name": "Tuyul",
+        "language": "Sundanese",
+        "region": "West Java, Indonesia",
+        "meaning": "Child spirit"
+      },
+      {
+        "name": "Kwee Kia",
+        "language": "Chinese-Malaysian",
+        "region": "Malaysia",
+        "meaning": "Demon child"
+      },
+      {
+        "name": "Anak Hantu",
+        "language": "Malay",
+        "region": "Malaysia",
+        "meaning": "Ghost child"
+      }
+    ],
+    "category": "SUPERNATURAL_ENTITY",
+    "subcategory": "Undead Familiar",
+    "tags": [
+      "undead",
+      "familiar-spirit",
+      "malevolent",
+      "southeast-asia",
+      "necromancy",
+      "theft",
+      "occult",
+      "infant-spirit",
+      "supernatural-servitor"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A toyol is an undead infant spirit used as a familiar in Malaysian and Indonesian black magic traditions. Created from dead fetuses or stillborn babies through necromantic rituals, toyols serve their masters by stealing money and valuables, causing mischief, and sometimes harming enemies.",
+      "full": "The toyol (also spelled tuyul) is one of Southeast Asia's most feared supernatural entities—a reanimated infant corpse or spirit bound through black magic to serve a living master. Controlled by a bomoh (Malay shaman) or dukun (Indonesian practitioner), the toyol appears as a small, greenish-gray child with sharp teeth, red eyes, and either naked or dressed in green. These creatures are kept in earthenware jars, fed the blood of their master, and sent out at night to steal money, jewelry, and other valuables. The toyol operates as a supernatural servant, obeying commands but requiring constant care and feeding. While primarily associated with theft, toyols can also spy on enemies, cause illness, and create general mischief. The practice of keeping toyols is considered haram (forbidden) in Islam, yet belief in these entities remains widespread across Malaysia and Indonesia, appearing frequently in modern horror films and urban legends."
+    },
+    "etymology": {
+      "origin": "Derived from Javanese and Malay words for 'child' or 'infant.' The term reflects the entity's appearance as a small child or baby.",
+      "meaning": "Literally translates to 'undead child' or 'ghost infant' in various Malay and Indonesian languages",
+      "first_use": "Traditional folklore dating back centuries in Malay archipelago"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "SUPERNATURAL_ENTITY",
+      "type": "Undead",
+      "subtype": "Necromantic Familiar",
+      "variant": "Southeast Asian"
+    },
+    "related_phenomena": [
+      {
+        "id": "pontianak",
+        "name": "Pontianak",
+        "relationship": "related_entity",
+        "description": "Vampiric spirit of women who died in childbirth, sometimes associated with toyol creation"
+      },
+      {
+        "id": "jenglot",
+        "name": "Jenglot",
+        "relationship": "similar",
+        "description": "Indonesian mummified creature used similarly as familiar"
+      },
+      {
+        "id": "imp",
+        "name": "Imp",
+        "relationship": "western_equivalent",
+        "description": "European familiar spirit with similar servant role"
+      },
+      {
+        "id": "golem",
+        "name": "Golem",
+        "relationship": "comparative",
+        "description": "Created servant entity from Jewish tradition"
+      },
+      {
+        "id": "jiangshi",
+        "name": "Jiangshi",
+        "relationship": "similar",
+        "description": "Chinese hopping vampire/undead, similar necromantic creation"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 0.3,
+        "max": 0.6,
+        "unit": "meters",
+        "confidence": "high"
+      },
+      "appearance_age": {
+        "description": "Appears as infant or toddler, aged 0-3 years",
+        "confidence": "high"
+      },
+      "coloration": [
+        "greenish-gray skin",
+        "pale gray",
+        "sickly green",
+        "ashen gray"
+      ],
+      "features": [
+        {
+          "feature": "Skin tone",
+          "description": "Greenish-gray or ashen pallor, corpse-like appearance",
+          "frequency": "always"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Red or glowing eyes, sometimes described as pupil-less",
+          "frequency": "very_common"
+        },
+        {
+          "feature": "Teeth",
+          "description": "Sharp, pointed teeth, sometimes described as fang-like",
+          "frequency": "common"
+        },
+        {
+          "feature": "Body size",
+          "description": "Size of small infant or toddler, approximately 30-60 cm tall",
+          "frequency": "always"
+        },
+        {
+          "feature": "Baldness",
+          "description": "Often depicted as completely bald",
+          "frequency": "very_common"
+        },
+        {
+          "feature": "Clothing",
+          "description": "Either naked or wearing simple green cloth/garment",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Nails",
+          "description": "Long, claw-like fingernails",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Childlike humanoid form with corpse-like features. Proportions of infant or toddler but with supernatural characteristics including glowing eyes and sharp teeth. Moves in childish manner but with supernatural speed and stealth."
+    },
+    "abilities": [
+      {
+        "ability": "Theft",
+        "description": "Primary function is stealing money and valuables, can slip through small openings",
+        "frequency": "very_common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Invisibility",
+        "description": "Can become invisible to most people, especially when on mission",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Size manipulation",
+        "description": "Can shrink to tiny size to enter through cracks and small spaces",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Wall-walking",
+        "description": "Ability to walk on walls and ceilings",
+        "frequency": "occasional",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Supernatural speed",
+        "description": "Moves with preternatural quickness when stealing or escaping",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Detection of valuables",
+        "description": "Innate ability to locate money, jewelry, and other valuable items",
+        "frequency": "very_common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Cursing/hexing",
+        "description": "Can inflict minor curses or illness when commanded by master",
+        "frequency": "occasional",
+        "evidence_level": "traditional"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "neutral-to-malevolent",
+      "social_structure": "solitary servant",
+      "habitat_preference": [
+        "earthenware jar in master's home",
+        "dark corners",
+        "beneath houses",
+        "hidden spaces"
+      ],
+      "diet": "Master's blood (primary), milk, eggs (traditional offerings)",
+      "patterns": [
+        "Obeys commands of master/owner",
+        "Requires regular feeding of blood",
+        "Active primarily at night",
+        "Steals money and valuables",
+        "Returns to jar or hiding place before dawn",
+        "Can become troublesome if not properly maintained",
+        "May turn on master if neglected or mistreated"
+      ]
+    }
+  },
+
+  "creation_and_control": {
+    "creation_methods": [
+      {
+        "method": "Fetal reanimation",
+        "description": "Stealing a fetus or stillborn baby from cemetery and performing necromantic rituals",
+        "practitioners": "Bomoh, dukun",
+        "components": [
+          "Dead fetus or stillborn infant",
+          "Islamic prayers said backwards (according to folklore)",
+          "Blood offerings",
+          "Specific ritual timing (often midnight or forbidden hours)"
+        ],
+        "difficulty": "high",
+        "cultural_note": "Considered extremely sinful in Islam"
+      },
+      {
+        "method": "Spirit binding",
+        "description": "Binding the spirit of deceased infant through black magic",
+        "practitioners": "Black magic practitioners",
+        "components": [
+          "Spirit of deceased child",
+          "Binding incantations",
+          "Physical vessel (jar)",
+          "Blood covenant"
+        ],
+        "difficulty": "high"
+      },
+      {
+        "method": "Purchase from practitioner",
+        "description": "Obtaining already-created toyol from bomoh or dukun",
+        "practitioners": "Various",
+        "components": [
+          "Payment to practitioner",
+          "Blood oath",
+          "Instructions for maintenance"
+        ],
+        "difficulty": "medium",
+        "note": "Most common method in modern folklore"
+      }
+    ],
+    "maintenance_requirements": [
+      "Regular feeding of master's blood (finger-prick)",
+      "Milk offerings",
+      "Eggs (traditional food offering)",
+      "Keeping in earthenware jar or designated container",
+      "Speaking to and treating as a child",
+      "Providing toys or playthings",
+      "Regular commands and assignments"
+    ],
+    "control_methods": [
+      "Blood bond between master and toyol",
+      "Verbal commands",
+      "Offerings and rewards",
+      "Threats of punishment or withholding food",
+      "Islamic prayers and verses (for protection against, not control of)"
+    ],
+    "risks_to_master": [
+      "Toyol may grow powerful and uncontrollable",
+      "Neglected toyol may turn on master",
+      "Social stigma and legal issues if discovered",
+      "Religious consequences (haram in Islam)",
+      "Karmic retribution believed to affect master and family",
+      "Difficult to dispose of safely"
+    ]
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily Malaysia and Indonesia, with cultural variations across the Malay archipelago. Belief extends to Malay communities in Singapore, Southern Thailand, and Brunei.",
+      "continents": ["Asia"],
+      "countries": ["Malaysia", "Indonesia", "Singapore", "Brunei", "Thailand"],
+      "regions": [
+        "Peninsular Malaysia",
+        "East Malaysia (Sabah, Sarawak)",
+        "Java, Indonesia",
+        "Sumatra, Indonesia",
+        "Kalimantan, Indonesia",
+        "Bali, Indonesia",
+        "Southern Thailand"
+      ]
+    },
+    "cultural_strongholds": [
+      {
+        "name": "Rural Malaysia",
+        "location": {
+          "description": "Villages and rural areas of Peninsular Malaysia",
+          "country": "Malaysia",
+          "region": "Peninsular Malaysia"
+        },
+        "belief_strength": "high",
+        "notes": "Strongest traditional beliefs persist in rural communities"
+      },
+      {
+        "name": "Java",
+        "location": {
+          "description": "Throughout Java, especially rural areas",
+          "country": "Indonesia",
+          "region": "Java"
+        },
+        "belief_strength": "very_high",
+        "notes": "Known as tuyul, deeply embedded in Javanese folklore and modern culture"
+      },
+      {
+        "name": "Sumatra",
+        "location": {
+          "description": "Rural and urban Sumatra",
+          "country": "Indonesia",
+          "region": "Sumatra"
+        },
+        "belief_strength": "high",
+        "notes": "Various regional variations of the toyol legend"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-Islamic era",
+        "circa": true,
+        "source": "Indigenous animist traditions predating Islamic arrival in 13th century"
+      },
+      "historical_continuity": "Continuous tradition from pre-Islamic animism through Islamic period to present day",
+      "modern_resurgence": "Renewed interest through horror films and media in late 20th-early 21st century"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in pre-Islamic animist beliefs of the Malay archipelago, incorporating indigenous spirit beliefs with later Islamic and Hindu-Buddhist influences. The toyol represents syncretism between ancient necromantic practices and Islamic mysticism.",
+      "earliest_accounts": "Oral traditions dating to pre-Islamic period (pre-13th century). Written accounts appear in colonial-era documentation of Malay magical practices.",
+      "folklore_connections": "Connected to broader Southeast Asian beliefs in spirit servants, necromancy, and the power of dead infants. Related to similar entities in Thai, Vietnamese, and Filipino folklore."
+    },
+    "timeline": [
+      {
+        "date": "Pre-1300s",
+        "event": "Pre-Islamic origins",
+        "significance": "Animist traditions involving spirit servants and infant spirits established in Malay archipelago",
+        "source": "Archaeological and anthropological evidence"
+      },
+      {
+        "date": "1300s-1500s",
+        "event": "Islamic arrival and syncretism",
+        "significance": "Islamic influence transforms but does not eliminate toyol beliefs; practice becomes haram but persists",
+        "source": "Historical records of Islamic spread in Southeast Asia"
+      },
+      {
+        "date": "1800s-1900s",
+        "event": "Colonial documentation",
+        "significance": "British and Dutch colonial administrators document toyol practices in ethnographic studies",
+        "source": "Colonial ethnographic reports"
+      },
+      {
+        "date": "1970s-1980s",
+        "event": "Film and media representation begins",
+        "significance": "Toyol appears in Malaysian and Indonesian horror films, entering popular culture",
+        "source": "Malaysian/Indonesian cinema records"
+      },
+      {
+        "date": "1990s",
+        "event": "Golden age of toyol horror films",
+        "significance": "Multiple Malaysian and Indonesian films feature toyol, cementing modern image",
+        "source": "Film industry records"
+      },
+      {
+        "date": "2000s-present",
+        "event": "Urban legend revival",
+        "significance": "Internet and social media spread toyol stories to new generation; continued film appearances",
+        "source": "Contemporary media analysis"
+      }
+    ],
+    "modern_era": "In contemporary Malaysia and Indonesia, toyol belief remains widespread despite urbanization and Islamic opposition. The toyol appears frequently in horror films, television shows, and urban legends. Stories of toyol theft circulate on social media, and some practitioners still claim to offer toyol services. The toyol has become a cultural icon representing the persistence of traditional beliefs in modern society."
+  },
+
+  "encounters": {
+    "statistics": {
+      "total_documented": "Unknown (thousands of folk accounts)",
+      "verified": 0,
+      "cultural_reports": "Widespread and ongoing",
+      "media_appearances": "50+ films and TV shows",
+      "date_range": {
+        "earliest": "Pre-colonial era",
+        "latest": "2026"
+      }
+    },
+    "typical_encounter_patterns": [
+      {
+        "scenario": "Theft discovery",
+        "description": "Victim discovers money or valuables missing; small footprints or childlike disturbances found; toyol blamed",
+        "frequency": "most_common",
+        "outcomes": [
+          "Victim seeks spiritual protection (ustaz, bomoh)",
+          "Placement of protective measures (pins, mirrors)",
+          "Community gossip about who might own toyol"
+        ]
+      },
+      {
+        "scenario": "Direct sighting",
+        "description": "Witness sees small, child-like figure with glowing red eyes, typically at night",
+        "frequency": "less_common",
+        "outcomes": [
+          "Witness recites Quranic verses",
+          "Witness experiences fear or illness",
+          "Story spreads through community"
+        ]
+      },
+      {
+        "scenario": "Household manifestation",
+        "description": "Unexplained noises, objects moving, childlike laughter; attributed to toyol",
+        "frequency": "common",
+        "outcomes": [
+          "Family seeks Islamic spiritual cleansing",
+          "Protective items installed",
+          "Suspicion of neighbor owning toyol"
+        ]
+      }
+    ],
+    "notable_accounts": [
+      {
+        "id": "toyol-case-penang-2003",
+        "name": "Penang Theft Wave",
+        "date": {
+          "value": "2003",
+          "precision": "year"
+        },
+        "location": {
+          "description": "Georgetown, Penang",
+          "country": "Malaysia",
+          "region": "Penang"
+        },
+        "description": "Series of unexplained thefts in Georgetown shophouses blamed on toyol. Shopkeepers reported small footprints, childlike sounds, and missing cash from secured locations. Several hired bomohs for protection.",
+        "type": "theft_wave",
+        "cultural_impact": "High local media coverage"
+      },
+      {
+        "id": "toyol-confession-2015",
+        "name": "Dukun Confession Case",
+        "date": {
+          "value": "2015",
+          "precision": "year"
+        },
+        "location": {
+          "description": "Central Java",
+          "country": "Indonesia",
+          "region": "Java"
+        },
+        "description": "Indonesian dukun arrested for fraud claimed to have created and sold toyols to clients. Case received national media attention and sparked debates about black magic practices.",
+        "type": "legal_case",
+        "cultural_impact": "National discussion on black magic and fraud"
+      }
+    ]
+  },
+
+  "protection_and_countermeasures": {
+    "traditional_protections": [
+      {
+        "method": "Needles and pins",
+        "description": "Placing needles or pins near valuables; toyol supposedly afraid of sharp objects",
+        "effectiveness": "traditional_belief",
+        "placement": "Near cash boxes, safes, valuable items"
+      },
+      {
+        "method": "Mirrors",
+        "description": "Hanging mirrors to confuse or frighten toyol with its own reflection",
+        "effectiveness": "traditional_belief",
+        "placement": "Windows, doorways, above valuables"
+      },
+      {
+        "method": "Glass marbles",
+        "description": "Scattering marbles; toyol will allegedly stop to count or play with them",
+        "effectiveness": "traditional_belief",
+        "placement": "Around property perimeter"
+      },
+      {
+        "method": "Islamic verses",
+        "description": "Reciting Ayat Kursi and other Quranic protections",
+        "effectiveness": "religious_practice",
+        "practitioners": "Muslims"
+      },
+      {
+        "method": "Salt",
+        "description": "Spreading salt around property to create barrier",
+        "effectiveness": "traditional_belief",
+        "placement": "Thresholds, windows, property boundaries"
+      },
+      {
+        "method": "Spiritual cleansing",
+        "description": "Hiring ustaz (Islamic teacher) or bomoh to perform cleansing rituals",
+        "effectiveness": "traditional_belief",
+        "practitioners": "Religious or spiritual specialists"
+      }
+    ],
+    "disposal_methods": [
+      {
+        "method": "Return to dukun/bomoh",
+        "description": "Returning toyol to original creator for proper disposal",
+        "risk_level": "moderate",
+        "note": "Considered safest method"
+      },
+      {
+        "method": "Islamic exorcism",
+        "description": "Islamic scholar performs rituals to release spirit",
+        "risk_level": "low",
+        "note": "Religiously sanctioned method"
+      },
+      {
+        "method": "Burial with Islamic rites",
+        "description": "Proper Islamic burial to release infant spirit",
+        "risk_level": "low",
+        "note": "Gives rest to spirit"
+      },
+      {
+        "method": "Abandonment",
+        "description": "Leaving toyol in remote location",
+        "risk_level": "high",
+        "note": "Dangerous; toyol may seek revenge or harm others"
+      }
+    ]
+  },
+
+  "theories": {
+    "supernatural": [
+      {
+        "name": "Literal necromancy",
+        "description": "Toyols are genuinely reanimated infant corpses or bound spirits created through black magic",
+        "proponents": ["Traditional believers", "Some practitioners of folk magic"],
+        "evidence_cited": ["Consistent testimony across centuries", "Cultural continuity", "Unexplained thefts"]
+      },
+      {
+        "name": "Demonic entity",
+        "description": "Demons or jinn take the form of infant spirits to deceive and serve practitioners",
+        "proponents": ["Islamic scholars", "Religious authorities"],
+        "evidence_cited": ["Islamic theology on jinn", "Deceptive nature of entities"]
+      }
+    ],
+    "psychological": [
+      {
+        "name": "Cultural scapegoat",
+        "description": "Toyol serves as explanation for theft, missing money, and household disturbances",
+        "proponents": ["Anthropologists", "Sociologists"],
+        "evidence_cited": ["Social function of belief", "Correlation with economic stress", "Lack of physical evidence"]
+      },
+      {
+        "name": "Fraud enablement",
+        "description": "Belief in toyol enables fraud by practitioners claiming to sell or control them",
+        "proponents": ["Skeptics", "Law enforcement"],
+        "evidence_cited": ["Documented fraud cases", "Lack of verifiable toyol", "Financial exploitation patterns"]
+      },
+      {
+        "name": "Sleep paralysis and hallucination",
+        "description": "Some toyol sightings attributable to sleep paralysis featuring childlike hallucinations",
+        "proponents": ["Sleep researchers", "Psychologists"],
+        "evidence_cited": ["Consistency with sleep paralysis patterns", "Cultural interpretation of universal experience"]
+      }
+    ],
+    "sociological": [
+      {
+        "name": "Social control mechanism",
+        "description": "Toyol belief functions to discourage theft and reinforce moral boundaries",
+        "proponents": ["Anthropologists"],
+        "evidence_cited": ["Fear discourages keeping stolen money", "Reinforces Islamic prohibition on black magic"]
+      },
+      {
+        "name": "Economic anxiety expression",
+        "description": "Toyol accusations emerge during economic stress, targeting those perceived as gaining wealth unfairly",
+        "proponents": ["Sociologists", "Economic anthropologists"],
+        "evidence_cited": ["Correlation with economic conditions", "Class tensions in accusations"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Widespread belief in Malaysia and Indonesia that some people keep toyol for wealth",
+        "Children told toyol stories as warnings about greed",
+        "Community suspicion of sudden wealth as possibly toyol-assisted"
+      ],
+      "stories": [
+        "The toyol that grew too powerful and killed its master",
+        "The merchant who became rich through toyol but lost everything",
+        "The child who befriended a toyol and freed its spirit"
+      ],
+      "beliefs": "Keeping toyol brings temporary wealth but ultimate misfortune. The practice is haram (forbidden) in Islam but persists due to greed. Toyol can be inherited, passed down through families, creating generational curses."
+    },
+    "religious_context": {
+      "islamic_perspective": {
+        "status": "haram (strictly forbidden)",
+        "reasoning": [
+          "Involves desecration of dead",
+          "Constitutes black magic/sihr",
+          "Violates sanctity of burial",
+          "Involves dealings with jinn/demons",
+          "Stealing through supernatural means is still theft"
+        ],
+        "clerical_position": "Islamic scholars universally condemn toyol practices as grave sin",
+        "scriptural_basis": "Quranic prohibitions on magic and consorting with evil spirits"
+      },
+      "traditional_beliefs": {
+        "pre_islamic_roots": "Animist beliefs in spirit servants predate Islamic arrival",
+        "syncretism": "Practice combines pre-Islamic necromancy with Islamic mystical terminology",
+        "persistence": "Continues despite Islamic prohibition due to cultural entrenchment"
+      }
+    },
+    "popular_culture": {
+      "literature": [
+        "Featured in Malaysian horror anthologies",
+        "Subject of academic folklore studies",
+        "Appears in Southeast Asian supernatural fiction"
+      ],
+      "film_tv": [
+        "\"Toyol\" (1981) - Malaysian horror film",
+        "\"Perjanjian Syaitan\" (1981) - Indonesian film featuring toyol",
+        "\"Potong Bebek Angsa\" (1988) - Indonesian horror comedy",
+        "\"Senario The Movie\" (2003) - Malaysian comedy featuring toyol",
+        "\"Dukun\" (2007) - Malaysian horror film",
+        "\"Hantu Kak Limah\" series (2010s) - Malaysian horror comedy",
+        "\"Munafik\" (2016) - Malaysian horror film with toyol elements",
+        "\"Dendam Pontianak\" (2019) - Malaysian horror film",
+        "Numerous TV dramas and series featuring toyol"
+      ],
+      "games": [
+        "Featured in Southeast Asian horror games",
+        "Mobile games based on Malaysian folklore"
+      ],
+      "other": [
+        "Internet memes and social media discussions",
+        "YouTube videos exploring toyol legends",
+        "Tourist interest in Malaysian supernatural folklore",
+        "Cultural exhibitions on Malay mysticism"
+      ]
+    },
+    "social_impact": {
+      "accusations_and_conflict": "Accusations of keeping toyol can cause serious social conflict; sometimes used to explain neighbor's sudden wealth or to defame enemies",
+      "fraud_concerns": "Practitioners charging fees to create or remove toyol; Malaysian authorities occasionally prosecute for fraud",
+      "cultural_identity": "Toyol represents intersection of traditional beliefs and modern Muslim identity in Southeast Asia",
+      "youth_culture": "Younger generations often skeptical but culturally aware; toyol remains popular in entertainment"
+    }
+  },
+
+  "research": {
+    "anthropological_studies": [
+      {
+        "researcher": "Dr. Winstedt, R.O.",
+        "contribution": "Early 20th century documentation of Malay magic including toyol practices",
+        "period": "1920s-1960s",
+        "significance": "First systematic Western academic documentation"
+      },
+      {
+        "researcher": "Dr. Skeat, Walter William",
+        "contribution": "Comprehensive study of Malay magic and folklore including spirit servants",
+        "period": "1900s",
+        "work": "Malay Magic (1900)"
+      }
+    ],
+    "contemporary_research": {
+      "focus_areas": [
+        "Persistence of belief in modern Muslim societies",
+        "Intersection of Islam and folk beliefs",
+        "Economic anthropology of supernatural beliefs",
+        "Film studies and cultural representation",
+        "Psychology of belief and fraud vulnerability"
+      ],
+      "institutions": [
+        "Universities in Malaysia and Indonesia studying folklore",
+        "Islamic universities examining folk practices vs. orthodox Islam",
+        "Anthropology departments worldwide studying Southeast Asian beliefs"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "skeat-1900",
+      "type": "book",
+      "title": "Malay Magic: An Introduction to the Folklore and Popular Religion of the Malay Peninsula",
+      "authors": ["Walter William Skeat"],
+      "publication": "Macmillan and Co.",
+      "date": "1900"
+    },
+    {
+      "id": "winstedt-1961",
+      "type": "book",
+      "title": "The Malay Magician: Being Shaman, Saiva and Sufi",
+      "authors": ["R.O. Winstedt"],
+      "publication": "Routledge & Kegan Paul",
+      "date": "1961"
+    },
+    {
+      "id": "laderman-1991",
+      "type": "book",
+      "title": "Taming the Wind of Desire: Psychology, Medicine, and Aesthetics in Malay Shamanistic Performance",
+      "authors": ["Carol Laderman"],
+      "publication": "University of California Press",
+      "date": "1991"
+    }
+  ]
+}
